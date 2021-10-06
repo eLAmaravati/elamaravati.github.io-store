@@ -1,0 +1,21 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/lngtamrvt/public_html/store.langitamaravati.com
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp style.css.map $DEPLOYPATH
+    - /bin/cp -R src $DEPLOYPATH
+    - /bin/cp amyra.html $DEPLOYPATH
+    - /bin/cp anindita.html $DEPLOYPATH
+    - /bin/cp calisto.html $DEPLOYPATH
+    - /bin/cp documentation.html $DEPLOYPATH
+    - /bin/cp faq.html $DEPLOYPATH
+    - /bin/cp freya.html $DEPLOYPATH
+    - /bin/cp gyandra.html $DEPLOYPATH
+    - /bin/cp how-to-buy.html $DEPLOYPATH
+    - /bin/cp kandhita.html $DEPLOYPATH
+    - /bin/cp lalita.html $DEPLOYPATH
+    - /bin/cp mayra.html $DEPLOYPATH
+    - /bin/cp sierra.html $DEPLOYPATH
+    - /bin/cp zeya.html $DEPLOYPATH
