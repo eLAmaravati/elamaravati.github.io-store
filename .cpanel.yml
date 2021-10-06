@@ -5,7 +5,6 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp style.css.map $DEPLOYPATH
-    - /bin/cp -R src $DEPLOYPATH
     - /bin/cp amyra.html $DEPLOYPATH
     - /bin/cp anindita.html $DEPLOYPATH
     - /bin/cp calisto.html $DEPLOYPATH
