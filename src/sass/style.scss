@@ -8,6 +8,7 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #666;
+    position: relative;
 }
 
 // Variabel
@@ -15,6 +16,7 @@ $lightGrey: #f0f0f0;
 $accentColor1: #9C715E;
 $accentColor2: #f4eeeb;
 $accentColor3: #222;
+$redColor: #ff2d20;
 
 // General
 h1,
@@ -137,6 +139,16 @@ section {
     color: #fff !important;
     background-color: #000 !important;
     pointer-events: none;
+}
+
+.btn-link {
+    color: $redColor;
+    transition: all .25s ease-in-out;
+
+    &:hover {
+        color: $redColor;
+        letter-spacing: 1px;
+    }
 }
 
 // Site Header
@@ -276,6 +288,19 @@ main {
 .accordion-icon {
     color: red;
 }
+
+
+// Documentation
+.icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: .75rem;
+}
+
 
 // Footer
 
