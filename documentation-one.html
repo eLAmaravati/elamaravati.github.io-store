@@ -27,9 +27,9 @@
     <title>Documentation | Amaravati Store</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+<body>
     <!-- Navbar -->
-    <nav class="navbar navbar-light bg-white fixed-top shadow-sm">
+    <nav class="navbar navbar-light bg-white shadow-sm fixed-top">
         <div class="container">
             <a class="navbar-brand" href="/"><img src="src/img/logo-amaravati-store.svg" alt="" width="30"
                     height="24"></a>
@@ -83,27 +83,27 @@
     <!-- End Navbar -->
 
     <!-- Jumbotron -->
-    <header class="site-header text-center bg-light pb-5">
+    <!-- <header class="site-header text-center pb-5">
         <h1 class="entry-title fw-bold">DOCUMENTATION</h1>
         <p class="page-description mb-3">Dokumentasi Template Blogspot</p>
-    </header>
+    </header> -->
     <!-- End Jumbotron -->
 
     <!-- Main Section -->
-    <main class="container">
-        <div class="row mt-3">
-            <div class="flex-shrink-0 col-md-3">
-                <ul class="list-unstyled ps-0" id="navbar-example3">
+    <div class="container">
+        <aside class="sidenav">
+            <nav class="ps-3">
+                <ul class="list-unstyled ps-0">
                     <li class="mb-1">
-                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                        <button class="btn btn-toggle align-items-center collapsed" data-bs-toggle="collapse"
                             data-bs-target="#home-collapse" aria-expanded="true">
                             Instalasi
                         </button>
                         <div class="collapse show" id="home-collapse">
                             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#item-1" class="link-dark rounded">Overview</a></li>
+                                <li><a href="#item-1" class="link-dark">Overview</a></li>
                                 <li><a href="#" class="link-dark rounded">Updates</a></li>
-                                <li><a href="#" class="link-dark rounded">Reports</a></li>
+                                <li><a href="#report" class="link-dark" target="_top">Reports</a></li>
                             </ul>
                         </div>
                     </li>
@@ -115,7 +115,7 @@
                         </button>
                         <div class="collapse" id="dashboard-collapse">
                             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#" class="link-dark rounded">Overview</a></li>
+                                <li><a href="#overview" class="link-dark rounded">Overview</a></li>
                                 <li><a href="#" class="link-dark rounded">Weekly</a></li>
                                 <li><a href="#" class="link-dark rounded">Monthly</a></li>
                                 <li><a href="#" class="link-dark rounded">Annually</a></li>
@@ -186,33 +186,43 @@
                         </div>
                     </li>
                 </ul>
+            </nav>
+        </aside>
+        <main class="doc-content row">
+            <div class="page-header">
+                <h1 class="entry-title fw-bold">Dokumentasi Template</h1>
+                <p class="page-description mb-3">Dokumentasi Template Blogspot</p>
             </div>
-            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0"
-                class="col-md-8 offset-1">
-                <h2 id="item-1" class="fw-bold">Instalasi</h2>
-                <small class="text-muted">Cara memasang template.</small>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro veritatis, ipsa iusto nostrum iure
-                    labore, adipisci quidem molestiae, distinctio vitae maxime. Tempore reiciendis saepe maiores
-                    aliquam. Eum totam neque vel aut ut amet repudiandae in ipsam velit consequatur iusto animi omnis
-                    enim, a facilis saepe dolore. Ipsam ad excepturi earum. Ut quas hic aspernatur ab. Enim consectetur
-                    nulla deserunt quasi unde placeat ab. Fugiat ratione blanditiis sint obcaecati iure, aperiam id,
-                    amet esse mollitia tempore sed velit sapiente. Atque doloremque voluptatibus blanditiis consequuntur
-                    aliquid optio aut, dolore aliquam ea, totam quidem. Dicta, sapiente voluptatem! Officiis aut
-                    praesentium odio error harum? Perspiciatis reiciendis voluptate delectus molestiae eius doloremque
-                    quaerat hic, voluptates totam, officiis, vero corporis consequuntur? Blanditiis iste adipisci ipsum
-                    ullam voluptatibus nihil, quam ad quo voluptatem temporibus iure ex consectetur eos. Modi laboriosam
-                    molestiae earum nostrum harum quidem animi magnam quas debitis cum, sapiente consequuntur, quo nobis
-                    vero sint quam labore voluptatibus alias repudiandae a fugiat rem ad! Modi voluptatem possimus
-                    aperiam at vero, consequatur distinctio esse omnis quod id? Ad inventore, placeat perferendis
-                    doloremque porro beatae aut recusandae rem nobis ut dolorum adipisci ea autem minima hic doloribus
-                    tempore excepturi. Ab, blanditiis! Facilis, dolores ducimus nulla totam nisi odio!</p>
+            <div class="doc-section section-1" id="overview">
+                <h2>Instalasi</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, eos doloribus ut in nulla
+                    consectetur necessitatibus animi debitis deleniti itaque perferendis quae rem magni vitae ea numquam
+                    harum ratione, explicabo aperiam, similique adipisci voluptates nemo. Blanditiis quos, eveniet
+                    laborum nam earum maiores hic sed ullam iusto omnis sapiente exercitationem, quas quam. Magnam quo
+                    doloremque itaque, explicabo error expedita quas voluptatem perferendis sed harum est inventore
+                    asperiores ex optio animi porro molestias voluptatibus necessitatibus dolorem enim iste? Cumque
+                    necessitatibus ab totam. Veritatis iste quod, vitae aspernatur doloremque earum excepturi quis
+                    molestiae, nemo perspiciatis nobis id incidunt optio commodi. At, commodi ipsum.</p>
             </div>
-        </div>
-    </main>
+
+            <section class="doc-section section-2" id="report">
+                <h2>Judul report</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, eos doloribus ut in nulla
+                    consectetur necessitatibus animi debitis deleniti itaque perferendis quae rem magni vitae ea numquam
+                    harum ratione, explicabo aperiam, similique adipisci voluptates nemo. Blanditiis quos, eveniet
+                    laborum nam earum maiores hic sed ullam iusto omnis sapiente exercitationem, quas quam. Magnam quo
+                    doloremque itaque, explicabo error expedita quas voluptatem perferendis sed harum est inventore
+                    asperiores ex optio animi porro molestias voluptatibus necessitatibus dolorem enim iste? Cumque
+                    necessitatibus ab totam. Veritatis iste quod, vitae aspernatur doloremque earum excepturi quis
+                    molestiae, nemo perspiciatis nobis id incidunt optio commodi. At, commodi ipsum.</p>
+                <img src="src/img/mockup-anindita.webp" alt="" class="img-fluid">
+            </section>
+        </main>
+    </div>
     <!-- End Main Section -->
 
     <!-- Footer Section -->
-    <footer>
+    <!-- <footer>
         <div class="container">
             <div class="row footer-widget">
                 <div class="col-md-4">
@@ -294,7 +304,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- End Footer Section -->
 
 

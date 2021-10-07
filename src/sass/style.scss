@@ -16,7 +16,8 @@ $lightGrey: #f0f0f0;
 $accentColor1: #9C715E;
 $accentColor2: #f4eeeb;
 $accentColor3: #222;
-$redColor: #ff2d20;
+// $redColor: #ff2d20;
+$redColor: #dc3545;
 
 // General
 h1,
@@ -376,11 +377,11 @@ footer {
     border: 0;
 }
 
-.btn-toggle:hover,
-.btn-toggle:focus {
-    color: rgba(0, 0, 0, .85);
-    background-color: #d2f4ea;
-}
+// .btn-toggle:hover,
+// .btn-toggle:focus {
+//     color: rgba(0, 0, 0, .85);
+//     background-color: #d2f4ea;
+// }
 
 .btn-toggle::before {
     width: 1.25em;
@@ -406,11 +407,62 @@ footer {
     text-decoration: none;
 }
 
-.btn-toggle-nav a:hover,
-.btn-toggle-nav a:focus {
-    background-color: #d2f4ea;
-}
+// .btn-toggle-nav a:hover,
+// .btn-toggle-nav a:focus {
+//     background-color: #d2f4ea;
+// }
 
 .scrollarea {
     overflow-y: auto;
+}
+
+.sidenav {
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 20vw;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    // z-index: 1;
+    /* Stay on top */
+    top: 11%;
+    /* Stay at the top */
+    left: 0;
+    bottom: 20%;
+    background-color: $lightGrey;
+    /* Black */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* Disable horizontal scroll */
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    li {
+        a {
+            &:hover {
+                color: $redColor;
+            }
+        }
+    }
+
+}
+
+.doc-content {
+    margin-left: 20vw;
+    padding-top: 5rem;
+}
+
+.doc-section {
+    padding-top: 5rem;
+    border-bottom: 1px solid $lightGrey;
+    padding-bottom: 1rem;
+}
+
+.page-header {
+    border-bottom: 3px solid $lightGrey;
+    background-color: $red-500;
+
+    h1 {
+        text-transform: uppercase;
+    }
 }
