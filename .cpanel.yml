@@ -18,3 +18,4 @@ deployment:
     - /bin/cp mayra.html $DEPLOYPATH
     - /bin/cp sierra.html $DEPLOYPATH
     - /bin/cp zeya.html $DEPLOYPATH
+    - /bin/cp -R src $DEPLOYPATH
