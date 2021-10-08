@@ -152,6 +152,11 @@ section {
     }
 }
 
+// Typography
+code {
+    background-color: red !important;
+}
+
 // Site Header
 main {
     position: relative;
@@ -377,11 +382,11 @@ footer {
     border: 0;
 }
 
-// .btn-toggle:hover,
-// .btn-toggle:focus {
-//     color: rgba(0, 0, 0, .85);
-//     background-color: #d2f4ea;
-// }
+.btn-toggle:hover,
+.btn-toggle:focus {
+    color: rgba(0, 0, 0, .85);
+    background-color: #d2f4ea;
+}
 
 .btn-toggle::before {
     width: 1.25em;
